@@ -20,3 +20,7 @@ def min_finder(list):
   min_num = 0
   min_num = min(list)
   return min_num
+
+print(f’Original List: {my_list}’)
+list1 = remove_duplicates(my_list)
+print(f'New List: {list1}')
